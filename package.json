@@ -1,0 +1,24 @@
+{
+  "name": "workday_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.2",
+    "@playwright/test": "^1.59.1",
+    "allure-playwright": "^3.7.1",
+    "ssh2-sftp-client": "^12.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+}
